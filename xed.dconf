@@ -1,6 +1,16 @@
+
+[org/x/editor/plugins]
+active-plugins=['filebrowser', 'joinlines', 'wordcompletion', 'taglist', 'open-uri-context-menu', 'docinfo', 'time', 'modelines', 'sort', 'spell', 'textsize']
+
 [org/x/editor/preferences/editor]
 bracket-matching=false
 display-line-numbers=true
 prefer-dark-theme=true
 scheme='cobalt'
 wrap-mode='none'
+
+[org/x/editor/preferences/ui]
+statusbar-visible=true
+
+[org/x/editor/state/history-entry]
+history-search-for=['move']
